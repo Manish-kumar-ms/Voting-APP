@@ -50,7 +50,9 @@ const Home = () => {
     socket.on("voteResultsUpdated", (data) => {
       setResults(data);
     });
-    return () => socket.disconnect();
+    return () => {
+      socket.off('voteResultsUpdated'); 
+    }
   }, []);
 
   const castVote = async (option) => {
