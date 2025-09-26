@@ -4,6 +4,13 @@ A **Real-Time Voting Web Application** built with **MERN Stack** and **Socket.IO
 
 ---
 
+## 🌐 Live Demo
+
+- **Frontend**: [https://voting-app-frontend-iaiz.onrender.com](https://voting-app-frontend-iaiz.onrender.com)  
+- **Backend**: [https://voting-app-backend-az4s.onrender.com](https://voting-app-backend-az4s.onrender.com)
+
+---
+
 ## Features
 
 * **User Authentication**: Login/Logout with session persistence via cookies.
