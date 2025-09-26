@@ -2,7 +2,7 @@
 import { useContext } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:8000", {
+const socket = io("https://voting-app-backend-az4s.onrender.com", {
   withCredentials: true,
 });
 
