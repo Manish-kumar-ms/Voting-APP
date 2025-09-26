@@ -21,7 +21,7 @@ const server = http.createServer(app);
 //  Setup Socket.IO server
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://voting-app-frontend-iaiz.onrender.com',
     credentials: true,
   },
 });
@@ -35,7 +35,7 @@ setupSocketConnection(io);
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors(
-    { origin: "http://localhost:5173" ,
+    { origin: "https://voting-app-frontend-iaiz.onrender.com" ,
       credentials: true, 
     }
 ));
